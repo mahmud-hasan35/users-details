@@ -11,6 +11,7 @@ const getData = async () => {
 
 export default function UserList() {
   const [currentPage, setCurrentPage] = useState(1);
+  // const [selectedUserId, setSelectedUserId] = useState(null);
   const itemsPage = 5;
 
   const {data: users, error,isFetching }

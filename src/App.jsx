@@ -12,7 +12,7 @@ export default function App() {
 
       <UserList/>
 
-      <UserDetails id = {2}/>
+      <UserDetails id = {3}/>
  
 
     </div>

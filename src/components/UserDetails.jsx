@@ -3,7 +3,7 @@ import axios from "axios"
 
 
 const getData = async({queryKey}) => {
-  const response = await axios.get(`http://localhost:3000/users/?-_page=6&_per_page=6${queryKey[1]}`)
+  const response = await axios.get(`http://localhost:3000/users/${queryKey[1]}`)
   return response.data
 
 }

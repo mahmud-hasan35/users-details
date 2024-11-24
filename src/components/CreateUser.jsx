@@ -30,9 +30,6 @@ export default function CreateUser() {
   
   }
   
-  
- 
-  
     
   return (
       <div className="w-3/12">
